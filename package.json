@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-multi-date-picker": "^3.3.4",
+    "react-scripts": "^5.0.1",
+    "sweetalert2": "^11.7.2"
+  }
+}

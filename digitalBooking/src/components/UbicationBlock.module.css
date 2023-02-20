@@ -1,0 +1,106 @@
+.contenedorUbication{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color:rgba(223, 228, 234, 1);
+    padding: 0;
+    padding-top: 0;
+    line-height: 0; 
+    width: 100%;
+}
+
+.ubicacionDetallada{
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    gap:2px 
+}
+
+.starScore{
+    padding-right: 15px;
+}
+
+.textoStatus{
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.contenedorPuntaje{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    line-height: 0;
+}
+
+.figurNumber {
+    position: relative;
+    background: #383B58;
+    width: 34px;
+    height: 27px;
+    border-radius: 8px;
+    padding: 2.1px;
+}
+
+.numeroScore {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  
+}
+.contenedorPuntajeYnumero{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 45px;
+}
+
+@media(max-width:800px){
+    .contenedorUbication{
+        width: 100vw;
+        
+    }
+
+    .ubicacionDetallada{
+        width: 60%;
+        line-height: 0.8;  
+    }
+}
+
+@media(max-width:560px){
+    .contenedorUbication{
+        width: 100vw;
+         
+    }
+    .starScore{
+        padding-right: 0px;
+    }
+    .contenedorPuntajeYnumero{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-right: 20px;
+    }
+
+    .ubicacionDetallada{
+        width: 50%; 
+        line-height: 0.8; 
+        padding-left: 25px;
+    }
+
+    .proximityLocation{
+        visibility: collapse;
+        display: none;
+    } 
+    .textoStatus{
+        padding-right: 0px;
+    }
+}

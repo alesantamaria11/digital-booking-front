@@ -1,0 +1,55 @@
+.formInputLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+input {
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  margin: 10px 0px;
+  padding: 15px;
+}
+
+label {
+  color: #383B58;
+  font-family: 'Roboto' sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+span {
+  color: red;
+  display: none;
+  font-size: 12px;
+  padding: 3px;
+  text-align: right;
+}
+
+input:invalid[focused="true"] {
+  background: #ffe1e1;
+  border: 1.5px solid red;
+}
+
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+/* @media(max-width: 560px){
+
+}
+
+@media(max-width: 800px){
+
+}
+
+
+@media (min-width: 800px){
+
+} */

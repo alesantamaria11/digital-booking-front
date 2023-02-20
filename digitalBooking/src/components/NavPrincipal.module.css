@@ -1,0 +1,128 @@
+
+.buscadorPrincipal{
+    /* display: flex;
+    position: relative;
+    flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(84, 87, 118, 1);
+    width: 100%;
+    /* margin: 0 auto; */
+    padding-bottom: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}  
+
+.buscar{
+    color:white;
+    background-color: rgba(29, 190, 180, 1);
+    border-color: rgba(29, 190, 180, 1);
+    border-radius:  5px;
+    width: 206px;
+    height: 41px;
+  
+    }
+
+.destino{
+    width: 422px;
+    height: 40px;
+    border-radius: 5px;
+    /* padding-left: 15px; */
+}
+
+.calendarPrincipal{
+    width: 422px;
+}
+
+.formPrincipal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+/* .destino option {
+    font-weight: bold; 
+} */
+
+.iconoLocation{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.contenedorCiudades {
+    
+    font-family: Roboto;
+    font-weight: bold; 
+}
+
+.mainTitle{
+    text-align: center;
+    color:white;
+
+}
+
+.iconCalendarNav{
+    position:absolute;
+    color: gray;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.contentsSelect.tittles{
+    color: gray;
+}
+
+
+@media(max-width: 800px){
+    .buscadorPrincipal{
+        flex-direction: column;   
+    }
+    .formPrincipal{
+        flex-wrap: nowrap;
+    }
+
+    .destino{
+        width: 254px; 
+    }
+
+    .calendarPrincipal{
+        width: 254px; 
+    }
+
+    .buscar{
+        width: 166px;
+    }
+}
+
+@media(max-width: 700px){
+    .buscadorPrincipal{
+        flex-direction: column;
+    }
+
+    .formPrincipal{
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        
+       
+    }
+
+    .destino{
+        width: 396px; 
+    }
+    .calendarPrincipal{
+        width: 396px; 
+    }
+
+    .buscar{
+        width: 396px;
+        max-width: 90%; 
+    }
+
+    .formPrincipal label{
+        max-width: 90%;
+    }
+}

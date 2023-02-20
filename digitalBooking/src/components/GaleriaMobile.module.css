@@ -1,0 +1,105 @@
+.locationGaleriaMobile{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    width: 100vw;
+    align-items: center;
+    position: relative;
+    line-height: 0;
+
+}
+
+
+
+
+.button{
+   
+    top: 1rem;
+    position: fixed;
+    right: 1rem;
+    font-size: 20x;
+    /* height: 15px; */
+    background-color: aqua;
+    font-weight: bold;
+    line-height: 0;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.locationGaleriaMobile img{
+    width: 100vw;
+} 
+
+.slideM{
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    /* animation: slideM 45s infinite; */
+
+}
+.slideM.active{
+    opacity: 1;
+}
+
+@media (max-width: 800px) {
+    .locationGaleriaMobile{
+      width: 100vw;
+    }
+
+  }
+
+/* @keyframes slideM{
+
+
+    0% {margin-left: 0%}
+    7% {margin-left: 0%}
+
+    7% {margin-left: -100%;}
+    14% {margin-left: -100%;}
+
+    14% {margin-left: -200%;}
+    21% {margin-left: -200%;}
+
+    21% {margin-left: -300%;}
+    29% {margin-left: -300%;}
+
+    29% {margin-left: -400%;}
+    36% {margin-left: -400%;}
+
+    36% {margin-left: -500%}
+    42% {margin-left: -500%;}
+
+    42% {margin-left: -600%}
+    48% {margin-left: -600%;}
+
+    48% {margin-left: -700%}
+    55% {margin-left: -700%;}
+
+    55% {margin-left: -800%}
+    62% {margin-left: -800%;}
+
+    62% {margin-left: -900%}
+    68% {margin-left: -900%;}
+
+    68% {margin-left: -1000%}
+    74% {margin-left: -1000%;}
+
+    74% {margin-left: -1100%}
+    80% {margin-left: -1100%;}
+
+    80% {margin-left: -1200%;}
+    86% {margin-left: -1200%;}
+
+    86% {margin-left: -1300%;}
+    91% {margin-left: -1300%;}
+
+    91% {margin-left: -1400%}
+    100% {margin-left: -1400%;}
+
+   
+
+} */

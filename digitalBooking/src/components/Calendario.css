@@ -1,0 +1,29 @@
+.rmdp-wrapper  {
+    width: 100%;
+}
+
+
+.rmdp-input {
+    width: 100%;
+    padding: 5px 0px 0px;
+}
+
+/* .rmdp-day span{
+    color: black;
+} */
+@media(min-width:800px){
+    .rmdp-input {
+        width: 235%;
+    }  
+}
+@media(max-width:800px){
+    .rmdp-input {
+        width: 138%;
+    }  
+}
+
+/* @media(max-width:700px){
+    .rmdp-input {
+        width: 219%;
+    }  
+} */

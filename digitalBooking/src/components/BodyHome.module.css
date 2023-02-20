@@ -1,0 +1,25 @@
+/*.generalBody{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+}*/
+
+.generalBody{
+display: grid;
+width: 100%;
+}
+
+h2{
+   padding-left: 19px;
+}
+
+
+
+@media (max-width: 560px){
+   .generalBody{
+      width: 85%;
+   }
+   
+}

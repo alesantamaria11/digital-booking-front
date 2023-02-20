@@ -1,0 +1,37 @@
+[
+    { 
+        "name": "Buenos Aires",
+        "country": "Argentina",
+        "id":1
+    },
+
+    { 
+        "name": "Bogotá",
+        "country": "Colombia",
+        "id":2
+    },
+    { 
+        "name": "Cartagena",
+        "country": "Colombia",
+        "id":3
+    },
+
+    { 
+        "name": "Medellín",
+        "country": "Colombia",
+        "id":4
+    },  
+
+    { 
+        "name": "Córdoba",
+        "country": "Argentina"
+    },
+
+    { 
+        "name": "Curitiba",
+        "country": "Brasil",
+        "id":5
+    }
+
+   
+]

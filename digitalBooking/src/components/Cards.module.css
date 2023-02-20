@@ -1,0 +1,262 @@
+.locationCards{
+    list-style: none;
+    font-size:1 rem;
+    display: flex; 
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey; 
+    height: 283px;
+    background-color: white;
+    gap:10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationInformation {
+    width: 311px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.locationImage {
+    border-radius: 10px;
+    width: 311px;
+    height: 283px;
+   
+}
+
+.containerIconHeart{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 280px;
+    font-size: 19px;
+}
+.containerCategory {
+    width: 189px;
+    display: flex;
+    align-items: center;
+    /* padding-top: 22px; */
+}
+
+
+.txtCategory {
+    font-size: 14px;
+    font-family: Quicksand;
+    color: #383B58;
+    opacity: 0.5;
+}
+
+.starsScoreC {
+margin-left: 5px;
+align-items: flex-end;
+}
+
+.containerTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txtTitle {
+    font: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px; 
+    color: #383B58;
+    /* width: 70%; */
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    /*line-height: 0;*/
+    margin: 0px;
+} 
+
+.figureNumber {
+    background: #383B58;
+    width: 34px;
+    height: 27px;
+    border-radius: 8px;
+    padding: 2.1px;
+    margin-top: 10px;;
+}
+
+.containerStatus {
+    position: relative;
+    bottom: 50px;
+    left: -3px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 0;
+}
+
+.numberScore {
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.txtStatus{
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: right;
+    line-height: 11px;
+    position: absolute;
+    width: 100%;
+    top:30px
+}
+
+.containerLocation {
+    display: flex;
+    align-items: center;
+}
+
+.txtLocation{
+    font: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    margin: 0px;
+}
+
+.containerIcons{
+    /* margin-top: 8px; */
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txtMoreLocation {
+    font: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    color: #1DBEB4;
+    margin-left: 5px;
+}
+ 
+/* .containerDescription{
+    margin-top: 25px; 
+} */
+
+.txtDescription{
+    font: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 16.41px;
+    color: #383B58;
+}
+
+.txtMore {
+    font: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    color: #1DBEB4;
+}
+
+
+.buttonContainer {
+/* width: 80%; */
+height: 40px;
+top: 0.81px;
+border-radius: 5px;
+border: none;
+/* margin-top: 8.19px; */
+font-weight: 500;
+color: white;
+background: #1DBEB4;
+text-align: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+line-height: 30px;
+
+}
+
+
+
+@media(max-width: 650px){
+    .locationCards{
+       flex-direction: column;
+        height: 100%;
+       width: 393px; 
+       align-items: center;
+       justify-items: center;
+       line-height: 0;
+       gap: 15px;
+       max-width: 100%;
+    }
+    .txtLocation{
+        margin: 0px;
+    }
+
+    .locationImage {
+     
+        width: 393px;
+        max-width: 100%;
+    }
+
+    .locationInformation {
+        width: 90%;
+        align-items: center;
+        /* padding-left: 30px; */
+        line-height: 0;
+        justify-content: center;
+        margin: 0px;
+      
+    }
+
+    .containerStatus {
+        position: relative;
+        bottom: 40px;
+        left: -15px; 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        line-height: 0;
+    }
+
+    .buttonContainer{
+        margin-bottom: 10px;
+    }
+} 
+
+/* hasta aca */
+
+
+/* .locationCards{
+    list-style: none;
+    font-size:1 rem;
+    display: flex; 
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey; 
+    height: 283px; 
+    background-color: white;
+    gap:14px;
+ 
+}
+
+.locationInformation{
+    width: 311px;
+}
+
+.locationImage{
+    border-radius: 10px;
+    width: 311px;
+    height: 283px   
+}
+
+@media(max-width: 560px){
+    .locationCards{
+        width: 50%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+} */

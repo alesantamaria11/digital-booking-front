@@ -1,0 +1,210 @@
+.containerCardBooking{
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* width: 100%; */
+    /* max-width: 409px; */
+    height: 100%;
+    margin: 0;
+    
+    box-sizing: border-box;
+    border-radius: 5px ;
+    box-shadow: 5px 5px 10px grey; 
+}
+
+.contentCardsB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.titleCardB{
+    margin: 0;
+    padding: 21px 0px 18px 21px;
+} 
+
+
+.imageCardBooking{
+    width: 100%;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.infoP{
+   
+    padding: 21px;
+    background-color: white;
+    
+}
+
+.infoProduct{
+    line-height: 0;
+}
+
+.infoProduct h3{
+   line-height: 0;
+   margin-bottom: 10px;
+   color: black;
+}
+
+.infoProduct p{
+    line-height: 0;
+    margin-bottom: 5px;
+    color:rgba(56, 59, 88, 1);
+    text-transform: capitalize;
+   
+} 
+
+
+
+/* .infoCardBooking{
+    display: flex;  
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left: 21px;
+} */
+
+.ubicationCardB{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    color:rgba(56, 59, 88, 1);
+    /* padding-left: 21px; */
+    
+}
+
+/* .headerCardI{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.ubicationCardB p{
+    padding-left: 8px;
+}
+
+
+.buttonBooking{
+ 
+    background-color: #1DBEB4;
+    border: none;
+    border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    justify-content: center;
+    /*margin-bottom: 30px;*/
+   
+    margin-top: 20px;
+    outline: none;
+    padding: 10px;
+    text-decoration: none;
+    width:100%;
+ 
+}
+
+.checkIn{
+    border-bottom: 2px solid rgba(29, 190, 180, 1);
+    border-top: 2px solid rgba(29, 190, 180, 1);
+    
+}
+
+.checkOut{
+    border-bottom: 2px solid rgba(29, 190, 180, 1);
+    margin-bottom: 45px;
+}
+
+/* .imageCardBooking{
+    max-width: 30%;
+} */
+
+
+
+
+
+@media(max-width:800px){
+    .contentCardsB{
+        flex-direction: row;
+        justify-content: center;
+        padding:21px;
+        /* gap: 15px; */
+
+    }
+
+    .infoP{
+   
+        padding: 0px 0px 0px 16px; 
+        background: white;
+    }
+
+    .titleCardB{
+        margin: 0;
+        padding: 21px 0px 0px 21px;
+    } 
+
+    .containerCardBooking{
+        align-content: center;
+        max-width: 100%;
+        align-content: center;
+        padding: 0px;
+    }
+
+    /* .img{
+        width: 60%;
+        
+         padding-left: 15px;
+    
+    } */
+
+    .buttonBooking{
+        margin-bottom: 0px;
+    }
+    .imageCardBooking{
+        /* width: 70%; */
+        border-radius: 5px;
+        max-width: 60%;
+    
+    }
+    .contentCardsB img{
+        max-width: 70%;
+    }
+    
+}
+
+@media(max-width:560px){
+    .contentCardsB{
+        flex-direction: column;
+        justify-content: center;
+        padding:21px;
+        gap: 15px;
+   
+    }
+    
+
+    .containerCardBooking{
+        width: 100%;
+    }
+
+    .infoP{
+   
+        padding: 0px 0px 0px 0px; 
+        background: white;
+    }
+
+  .imageCardBooking{
+        width: 100%;
+        max-width: 100%;
+    
+    }
+    .contentCardsB img{
+        max-width: 100%;
+    }
+}
+

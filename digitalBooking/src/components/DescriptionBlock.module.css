@@ -1,0 +1,43 @@
+.content {
+	font-family: 'Roboto' sans-serif;
+	font-size: 14px;
+	font-weight: 500px;
+	line-height: 1.5em;
+	padding-left: 15px;
+}
+
+.title {
+	color: #383B58;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 14px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+/* Tablet */
+@media screen and (min-width: 768px) {
+	.content {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+	.title {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+}
+
+/* Desktop */
+@media screen and (min-width: 800px) {
+	.content {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+	.title {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+}

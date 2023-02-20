@@ -1,0 +1,29 @@
+.slide-number{
+    color: black;
+    padding: 320px 310px;
+    display: flex;
+    width: 100%;
+    
+}
+div.slide-number{
+    font-size: 5px;
+    font-weight: 50;
+
+}
+
+
+
+/* .style{
+    font-size: 10px;
+    font-weight: 100;
+} */
+
+/* @media(min-width: 800px){
+    .slide-number.style{
+        color: black;
+        padding: 320px 310px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+} */

@@ -1,0 +1,132 @@
+.galeriaGeneral{
+    margin: 0;
+    padding: 0;
+}
+.locationGaleria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    gap:10px;
+    justify-content: center;
+    position: relative;
+    line-height: 0;
+    padding-top: 10px;
+}
+
+/* .locationGaleria2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    gap:10px;
+    justify-content: center;
+    position: relative;
+    line-height: 0;
+}  */
+
+
+.box1 img{
+    height: 386px;
+    width: 638px;
+    border-radius: 5px;
+}
+
+.box2{
+    display: grid;
+    grid-template-columns: repeat(2, 314px);
+    gap: 7px;
+    border-radius: 10px;
+    line-height: 0;
+}
+
+.box2 img{
+    height: 189px;
+    width: 314px;
+    border-radius: 5px; 
+}
+
+.windowModal{
+    position: relative;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0;
+    bottom: 1rem;
+    right: 8rem;
+    padding-left: 80%;
+}
+
+.windowModal button{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    /* line-height: 0; */
+    background-color: transparent;
+    border-color: transparent;
+    /* text-decoration: underline; */
+    /* width: 100%;
+    margin-right: 200px; */
+}
+
+
+.flechas{
+    font-size: 20x;
+    background-color: aqua;
+}
+
+.slideNumber{
+    
+        color: black;
+        padding: 320px 310px;
+        font-size: 5px;
+        font-weight: 100;
+
+}
+
+
+
+
+@media(max-width: 800px){
+    .box1{
+        visibility: visible;
+        display: none; 
+    }
+    .box2{
+        visibility: visible;
+        display: none;  
+    }
+
+    .locationGaleria2{
+        visibility: visible;
+            
+        }
+
+    .windowModal{
+        visibility: collapse;
+        display: none; 
+    }
+    .locationGaleria2 img{
+        max-width: 100%;
+            
+        }
+
+}
+
+@media(min-width: 800px){
+
+     .locationGaleria2{
+        display:none;
+        visibility: collapse;  
+    }
+
+    .locationGaleria2{
+        visibility: visible;
+            
+        }
+    
+    
+} 

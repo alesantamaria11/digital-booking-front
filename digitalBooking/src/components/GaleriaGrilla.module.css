@@ -1,0 +1,16 @@
+.locationGrilla{
+    margin: 0;
+    padding: 0;
+}
+    /* grid-template-columns: repeat(3 1fr);  */
+    /* grid-auto-columns: 314px;
+    list-style: none;  
+}   
+
+
+  
+
+/* @media(mx-width: 560px){
+    .locationGrilla{flex-direction: column;
+    }
+} */

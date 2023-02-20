@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*.general {
+    display: flex;
+    flex-direction: column;
+}*/
+
+@media only screen and (max-width: 768px) {
+   .general {
+      width: 100%;
+    }
+}

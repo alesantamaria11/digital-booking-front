@@ -1,0 +1,52 @@
+.footerH {
+  align-items: center;
+  background-color: rgba(29, 190, 180, 1);
+  bottom: 0px;
+  bottom: 0;
+  color: white;
+  display: flex;
+  height: 58px;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+}
+
+.iconosFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 49px;
+}
+
+.iconosFooter img {
+  height: 27px;
+  margin-left: 30px;
+  padding-left: 19px;
+}
+
+.marcaRegistrada {
+  margin: 0;
+  margin-left: 15px;
+  padding-left: 30;
+}
+
+@media (max-width: 800px) {
+  .footerH {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .iconosFooter {
+    display: none;
+  }
+
+  .footerH {
+    margin: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,472 @@
+#mobileMenuDB{
+  background-color: #FFF;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  position: fixed;
+right: 0;
+  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  width: 270px;
+  z-index: 1000;
+  margin-right: 0;
+}
+
+.mobileMenuDB{
+  background-color: #FFF;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  position: fixed
+;
+right: 0;
+margin-right: 0;
+  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  width: 270px;
+  z-index: 1000;
+}
+/* .mobileMenuDB:active{
+  left: 300px;
+  transform: translateX(100%);
+  -webkit-transform: translateX(120%);
+  -moz-transform: translateX(120%);
+  -ms-transform: translateX(120%);
+  -o-transform: translateX(120%);
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+} */
+
+
+
+#burgerIcon{
+  color: #545776;
+  width: 30px;
+
+}
+.burgerIcon{
+  color: #545776;
+  width: 30px;
+
+}
+
+.burgerIcon:hover{
+  cursor: pointer;
+}
+
+/* .backdrop{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.0) ;
+    position: fixed;
+    top:0;
+    left:0;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    visibility: hidden;
+    z-index: 1900;
+}
+
+
+.backdrop:active{
+  background-color: rgba(0,0,0,0.3);
+  visibility: hidden;
+} */
+
+.headerMenu{
+  background-color: #1DBEB4;
+  height: 28%;
+  position:relative; 
+}
+
+.headerMenu h2{
+  bottom: 15px;
+  color: #FFFFFF;
+  /* margin-block-end: 0; */
+  position: absolute ;
+  right: 15px;
+}
+
+.iconClose{
+  color: #FFF;
+  cursor: pointer;
+  height: 30px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 30px;
+}
+
+.contentMenu{  
+  background-color: #FFFFFF ; 
+  display:flex;
+  flex-direction: column;
+  height: 70%;
+  justify-content: space-between; 
+  padding: 0 15px;
+}
+
+.contentMenu ul{
+  color: #383B58;
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.contentMenu li{
+  padding: 20px 0;
+  width: 100%;
+  
+}
+
+.contentMenu li:hover{
+  background-color: none;
+  color: #1DBEB4;
+  cursor: pointer;
+  transition: all 200ms ;
+  -webkit-transition: all 200ms ;
+  -moz-transition: all 200ms ;
+  -ms-transition: all 200ms ;
+  -o-transition: all 200ms ;
+
+}
+
+.contentMenu li:first-child{
+  border-bottom: solid 1px #383B58;
+}
+.contentMenu a{
+  color: black;
+  text-decoration: none;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 15px;
+}
+
+.cardMobile {
+    bottom: 15px;
+    position: absolute ;
+    right: 15px;
+    text-align:right;
+}
+
+.circle{
+  background-color: #383B58;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  color: #FFFFFF;
+  color: #545776;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: 30px;
+  line-height: 25px;
+  margin-right: 15px;
+  margin-top: 3.5em;
+  padding-top: 0.3em;
+  right: 0.8em;
+  text-align: center;
+  width: 37px;
+}
+
+
+.user{
+  display: flex;   
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;    
+  font-style: normal;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 19px;
+  margin-top: 10px;
+  position: absolute;
+  right: 10px;
+  text-align: right;
+}
+
+.user h4{
+  color: #FFFFFF;
+  margin: 0;
+  text-align: right;
+  
+}
+
+.user p{
+  color: #545776;
+  margin: 0;
+  text-align: right;
+
+}
+
+
+.close{
+  bottom: 7em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  position: absolute;
+  right: 1em;
+  text-align: right;
+}
+
+.close p{
+  color: #383B58;
+  
+}
+
+.close span{
+  color: #1DBEB4;
+  cursor: pointer;
+  z-index: 2000;
+}
+
+.hr{
+  background-color: #545776;
+  border: none;
+  border: 1px solid #545776;
+  bottom: 4em;
+  height: 1px;
+  position: absolute;
+  width: 93%;
+}
+
+.hr2{
+  background-color: #545776;
+  border: none;
+  bottom: 4em;
+  height: 0.1px;
+  position: absolute;
+  width: 93%;
+}
+
+
+@media (min-width: 768px){
+  .mobileMenuDB{
+    display: none;
+  }
+  
+  .mobileMenuDB:active{
+    display: none;
+  }
+  
+  .burgerIcon{
+    display: none;
+  }
+  
+  .backdrop{
+    display: none;
+  }
+  
+  
+  .backdrop:active{
+    display: none;
+  }
+  
+  .headerMenu{
+    display: none;
+  }
+  
+  .headerMenu h2{
+    display: none;
+  }
+  
+  .iconClose{
+    display: none;
+  }
+  
+  .contentMenu{
+    display: none;
+  }
+  
+  .contentMenu ul{
+    display: none;
+  }
+  
+  .contentMenu li{
+    display: none;
+    
+  }
+  
+  .contentMenu li:hover{
+    display: none;
+  
+  }
+  
+  .contentMenu li:first-child{
+    display: none;
+  }
+  .contentMenu a{
+    display: none;
+  }
+  
+  .wrapper{
+    display: none;
+  }
+  
+  .cardMobile {
+    display: none;
+  }
+  
+  .circle{
+    display: none;
+  }
+  
+  
+  .user{
+    display: none;
+  }
+  
+  .user h4{
+    display: none;
+  }
+  
+  .user p{
+    display: none;
+  }
+  
+  
+  .close{
+    display: none;
+  }
+  
+  .close p{
+    display: none;
+  }
+  
+  .close span{
+    display: none;
+  }
+  
+  .hr{
+    display: none;
+  }
+}
+
+@media (min-width: 1024px){
+  .mobileMenuDB{
+    display: none;
+  }
+  
+  .mobileMenuDB:active{
+    display: none;
+  }
+  
+  .burgerIcon{
+    display: none;
+  }
+  
+  .backdrop{
+    display: none;
+  }
+  
+  
+  .backdrop:active{
+    display: none;
+  }
+  
+  .headerMenu{
+    display: none;
+  }
+  
+  .headerMenu h2{
+    display: none;
+  }
+  
+  .iconClose{
+    display: none;
+  }
+  
+  .contentMenu{
+    display: none;
+  }
+  
+  .contentMenu ul{
+    display: none;
+  }
+  
+  .contentMenu li{
+    display: none;
+    
+  }
+  
+  .contentMenu li:hover{
+    display: none;
+  
+  }
+  
+  .contentMenu li:first-child{
+    display: none;
+  }
+  .contentMenu a{
+    display: none;
+  }
+  
+  .wrapper{
+    display: none;
+  }
+  
+  .cardMobile {
+    display: none;
+  }
+  
+  .circle{
+    display: none;
+  }
+  
+  
+  .user{
+    display: none;
+  }
+  
+  .user h4{
+    display: none;
+  }
+  
+  .user p{
+    display: none;
+  }
+  
+  
+  .close{
+    display: none;
+  }
+  
+  .close p{
+    display: none;
+  }
+  
+  .close span{
+    display: none;
+  }
+  
+  .hr{
+    display: none;
+  }
+}

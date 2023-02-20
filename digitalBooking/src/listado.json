@@ -1,0 +1,85 @@
+[
+    { 
+        "crimg": "https://puertascolmena.com/wp-content/uploads/2019/05/9.jpg",
+    
+        "category": "Departamentos",
+        "title": "El Rosedal 1",
+        "location": "Medellín",
+        "description": "Hermoso apartamento de 2 habitaciones en el más prestigioso barrio",
+        "id": 1
+
+    },
+
+    { 
+       "crimg": "https://i.pinimg.com/236x/f2/a5/ec/f2a5ec92641ce64decfd4c11a29073fa.jpg",
+   
+       "category": "Departamentos",
+        "title":"Dorada Residence",
+        "location": "Córdoba",
+        "description":"Apartaestudio de categoría, ubicado en el corazón de la capital cordobesa",
+        "id": 2
+
+    },
+    { 
+        "crimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHzpNkRYzTLE19cgOvOK2ZH_J-WyHvzoBp_w&usqp=CAU",
+       
+        "category": "Hostels",
+        "title": "La Cruz",
+        "location": "Buenos Aires",
+        "description": "Limpio y agradable. Ubicado en pleno microcentro porteño",
+        "id": 3
+    },
+
+    { 
+        "crimg": "https://www.bienesonline.com/guatemala/photos/apartamento-en-zona-13-renta-en-vertical-aurora-de-3-habitaciones-con-o-sin-muebles-APR114421635199209-808.jpg",
+        
+        "category": "Hostels",
+        "title": "El abuelo",
+        "location": "Buenos Aires",
+        "description": "Habitaciones con baño incluido, el lugar más tradicional de la ciudad",
+        "id": 4
+
+    }, 
+
+    { 
+        "crimg": "https://media.istockphoto.com/photos/hotel-sign-vertical-picture-id471896611?k=20&m=471896611&s=170667a&w=0&h=whU2J_m647DkGJUtbRMjG2vkQXE3POOT147BPUWOrPg=",
+        "category": "Hoteles",
+        "title": "Hilton",
+        "location": "Medellín",
+        "description": "Prestigiosas habitaciones en la zona más nice de la ciudad",
+        "id": 5
+
+    },
+
+    { 
+        "crimg": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/houston/HOUAL-HOUAH-Exterior-Dawn-1_EC5EE92E-B50B-F3E4-82E4F3A365090570-ec5ee054ff400a4_ec5ef149-a881-6dd6-8912266cae24514c.jpg",
+       
+        "category": "Hoteles",
+        "title": "Four Season",
+        "location": "Bogotá",
+        "description": "El mejor hotel de la ciudad según los usuarios del sitio",
+        "id": 6
+
+    },
+    { 
+        "crimg": "https://cf.bstatic.com/xdata/images/hotel/max500/373981518.jpg?k=68729cbe92aa0a46b8c2b1b8cd9c88660997660a5f5fa3d020eefe0818ffb915&o=&hp=1",
+
+        "category": "Bed and Breakfast",
+        "title": "Aquarius",
+        "location": "Cartagena",
+        "description": "Habitaciones limpias y desayuno incluido",
+        "id": 7
+
+    },
+    { 
+        "crimg": "https://topadventure.com/__export/1661971908245/sites/laverdad/img/2022/08/31/hoteles_yucatan_desayuno_incluido_portada.jpg_2081173221.jpg",
+
+        "category": "Bed and Breakfast",
+        "title": "Sagitario",
+        "location": "Cartagena",
+        "description": "Ubicado en el Barrio de Getsemaní, el más tradicional y con",
+        "id": 8
+
+    }
+
+]

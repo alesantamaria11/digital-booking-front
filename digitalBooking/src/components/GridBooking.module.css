@@ -1,0 +1,38 @@
+.containerBodyBooking{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    gap: 27px;
+    max-width: 100%;
+   
+}
+.informationBooking{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.caledarioR{
+    justify-content: center;
+}
+
+.cardBooking{
+    max-width: 30%;
+}
+
+
+
+@media(max-width:800px){
+    .containerBodyBooking{
+        flex-direction: column;
+    }
+
+    .cardBooking{
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+
+}
